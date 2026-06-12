@@ -1,7 +1,6 @@
 # Algorithmic Family vs. Preprocessing Pipeline: Evaluating Non-Transferability and Model Dependency in Imbalanced Datasets
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)  
-*(This badge will become active after you publish the release on Zenodo. Replace XXXXXXX with your actual DOI.)*
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20671655.svg)](https://doi.org/10.5281/zenodo.20671655)  
 
 ## 📖 Project Description
 
@@ -45,7 +44,7 @@ The full paper is available in this repository:
 
 This project has been registered on Zenodo with a permanent DOI. If you use this work, please cite it as:
 
-> Barrena, F., & Alustiza, A. (2026). *Algorithmic Family vs. Preprocessing Pipeline: Evaluating Non‑Transferability and Model Dependency in Imbalanced Datasets*. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+> Barrena, F., & Alustiza, A. (2026). *Algorithmic Family vs. Preprocessing Pipeline: Evaluating Non‑Transferability and Model Dependency in Imbalanced Datasets*. Zenodo. https://doi.org/10.5281/zenodo.20671655
 
 (The DOI will be updated after the first release on Zenodo.)
 
