@@ -1,0 +1,73 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Algorithmic Family vs. Preprocessing Pipeline: Evaluating
+  Non-Transferability and Model Dependency in Imbalanced
+  Datasets
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Aimar
+    family-names: Alustiza Sanchez
+    email: 04aimaralustiza@gmail.com
+    orcid: 'https://orcid.org/0009-0003-7027-4605'
+  - given-names: Fermín
+    family-names: Barrena
+    email: barrenafermin@gmail.com
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20671655
+repository-code: 'https://github.com/aimar-al/Data-mining-research-project'
+abstract: >-
+  This research explores the structural dependencies between
+  machine learning classifiers and their preprocessing
+  pipelines within the context of predicting term deposit
+  subscriptions using the highly imbalanced Bank Marketing
+  dataset. Addressing a critical gap in current literature,
+  which frequently treats preprocessing as a universal and
+  model-agnostic preliminary step, this study formulates a
+  two-phase experimental methodology to evaluate the
+  non-transferability of pipelines across divergent
+  algorithmic architectures. We specifically unite the
+  "distance family" (K-Nearest Neighbors and Logistic
+  Regression) against the "partition family" (Decision Trees
+  and Random Forest). Phase 1 identifies the optimal
+  preprocessing configuration for each classifier via an
+  extensive GridSearch, utilizing the F1-Score to properly
+  account for the severe class imbalance. Phase 2 introduces
+  a cross-assignment "swap protocol," where models are
+  forced to operate within the optimal environments of the
+  opposing family to measure performance degradation. The
+  empirical results demonstrate that algorithms share a
+  fundamental mathematical dependency on how the feature
+  space is structured. The distance family converged on a
+  pipeline requiring PCA for dimensionality reduction and
+  undersampling (Neighbourhood Cleaning Rule) to establish
+  clean geometric boundaries. Conversely, the partition
+  family rejected PCA and the Random Forest favored
+  oversampling (SMOTE) to inject synthetic variance. The
+  swap protocol revealed severe incompatibilities: KNN
+  experienced a drastic F-Score drop (-0.0753) when
+  saturated by the interpolated noise of SMOTE. We conclude
+  that there is no universal preprocessing pipeline; data
+  preparation must be approached as an intrinsic, dynamic
+  extension of the algorithm. Finally, the Random Forest
+  classifier emerged as the optimal model (F-Score: 0.5898).
+  Crucially, its architectural rejection of PCA preserved
+  the original feature space, enabling the successful
+  integration of SHAP values to provide global and local
+  explainability, thereby satisfying strict regulatory
+  transparency requirements.
+keywords:
+  - machine learning
+  - imbalanced datasets
+  - preprocessing pipeline
+  - KNN
+  - Random Forest
+license: CC-BY-NC-SA-4.0
+version: 1.0.1
+date-released: '2026-06-13'
